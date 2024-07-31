@@ -1,5 +1,5 @@
-const page = () => {
+function InvoicesPage() {
 	return <p>Invoices page</p>;
-};
+}
 
-export default page;
+export default InvoicesPage;

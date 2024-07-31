@@ -1,5 +1,3 @@
-const page = () => {
+export default function Dashboard() {
 	return <p>Dashboard Page</p>;
-};
-
-export default page;
+}
