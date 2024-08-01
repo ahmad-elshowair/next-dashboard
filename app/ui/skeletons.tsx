@@ -45,7 +45,8 @@ export function RevenueChartSkeleton() {
 
 export function InvoiceSkeleton() {
 	return (
-		<div className="flex flex-row items-center justify-between border-b border-gray-100 py-4">
+		<div
+			className={`${shimmer} flex flex-row items-center justify-between border-b border-gray-100 py-4`}>
 			<div className="flex items-center">
 				<div className="mr-2 h-8 w-8 rounded-full bg-gray-200" />
 				<div className="min-w-0">
@@ -163,7 +164,7 @@ export function InvoicesMobileSkeleton() {
 
 export function InvoicesTableSkeleton() {
 	return (
-		<div className="mt-6 flow-root">
+		<div className={`mt-6 flow-root`}>
 			<div className="inline-block min-w-full align-middle">
 				<div className="rounded-lg bg-gray-50 p-2 md:pt-0">
 					<div className="md:hidden">
