@@ -21,6 +21,8 @@ body {
 	font-family: var(--font-inter);
 }
 
-p {
+p,
+h1,
+h2 {
 	font-family: var(--font-lusitana);
 }
